@@ -17,7 +17,7 @@ const values = [
     iconColor: 'text-[var(--red)]',
     title: 'Validación clínica continua',
     description:
-      'Cada módulo es revisado por médicos en ejercicio antes de ser implementado. El sistema refleja cómo trabaja un equipo de Hospitalización a Domicilio real.',
+      'Cada módulo es revisado por médicos en ejercicio antes de ser implementado. El sistema refleja cómo trabaja un equipo de Internación Domiciliaria real.',
   },
   {
     icon: RefreshCw,
@@ -158,7 +158,7 @@ export default function Nosotros() {
                 de la plataforma.
               </p>
               <span className="inline-block px-3 py-1 text-xs font-medium bg-[var(--teal)] text-white rounded-full font-[family-name:var(--font-dm-mono)]">
-                Hospitalización a Domicilio — Argentina
+                Internación Domiciliaria — Argentina
               </span>
             </motion.div>
           </div>

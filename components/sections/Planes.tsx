@@ -28,7 +28,7 @@ const plans = [
     subtitle: 'Para equipos en producción',
     badge: 'MÁS ELEGIDO',
     features: [
-      'Usuarios ilimitados',
+      'Sin límite de usuarios — vos definís cuántos necesitás',
       'Multi-tenant incluido',
       'Soporte prioritario',
       'Actualizaciones continuas',

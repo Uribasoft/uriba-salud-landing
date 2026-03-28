@@ -43,7 +43,7 @@ export default function Problema() {
         <SectionHeader
           eyebrow="EL PROBLEMA"
           eyebrowColor="red"
-          title="La realidad de gestionar una Hospitalización a Domicilio hoy en Argentina"
+          title="La realidad de gestionar una Internación Domiciliaria hoy en Argentina"
           subtitle="Sin las herramientas correctas, cada proceso clínico y operativo demanda horas que deberían dedicarse a los pacientes."
         />
 
