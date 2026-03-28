@@ -16,6 +16,7 @@ import {
 import SectionHeader from '@/components/ui/SectionHeader'
 import Button from '@/components/ui/Button'
 import Toast from '@/components/ui/Toast'
+import CustomCaptcha from '@/components/ui/CustomCaptcha'
 
 const contactSchema = z.object({
   nombre: z.string().min(2, 'El nombre debe tener al menos 2 caracteres'),
@@ -51,6 +52,7 @@ export default function Contacto() {
   >('idle')
   const [toastVisible, setToastVisible] = useState(false)
   const [toastMessage, setToastMessage] = useState('')
+  const [captchaVerified, setCaptchaVerified] = useState(false)
 
   const {
     register,
@@ -366,6 +368,9 @@ export default function Contacto() {
                 )}
               </div>
 
+              {/* Captcha */}
+              <CustomCaptcha onVerified={() => setCaptchaVerified(true)} />
+
               {/* Submit */}
               {submitStatus === 'success' ? (
                 <div className="flex items-center justify-center gap-2 bg-[var(--teal)] text-white rounded-lg py-3.5 font-[family-name:var(--font-dm-sans)] font-semibold">
@@ -395,7 +400,7 @@ export default function Contacto() {
                   className="w-full"
                   icon={<Send size={16} />}
                   loading={submitStatus === 'loading'}
-                  disabled={!isValid && submitStatus !== 'loading'}
+                  disabled={(!isValid || !captchaVerified) && submitStatus !== 'loading'}
                 >
                   Solicitar contacto
                 </Button>
