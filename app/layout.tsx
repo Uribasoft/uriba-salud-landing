@@ -24,6 +24,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/uriba-salud-logo.ico',
+  },
   title: 'UribaSalud — Plataforma de Internación Domiciliaria',
   description:
     'Sistema integral para la gestión clínica, operativa y administrativa de programas de Hospitalización a Domicilio. Score NEWS2, visitas con geofencing, facturación automática y multi-tenant.',
