@@ -353,7 +353,7 @@ export default function Contacto() {
                   rows={4}
                   {...register('mensaje')}
                   className={`${inputClass} resize-y ${errors.mensaje ? errorInputClass : ''}`}
-                  placeholder="Contenos sobre su programa: tamaño del equipo, especialidades, desafíos actuales..."
+                  placeholder="Describa brevemente sus necesidades: tipo de prestaciones, cantidad de profesionales, desafíos actuales..."
                 />
                 {errors.mensaje && (
                   <motion.p
