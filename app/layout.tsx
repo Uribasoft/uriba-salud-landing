@@ -29,11 +29,11 @@ export const metadata: Metadata = {
   },
   title: 'UribaSalud — Plataforma de Internación Domiciliaria',
   description:
-    'Sistema integral para la gestión clínica, operativa y administrativa de programas de Hospitalización a Domicilio. Score NEWS2, visitas con geofencing, facturación automática y multi-tenant.',
+    'Sistema integral para la gestión clínica, operativa y administrativa de programas de Internación Domiciliaria. Score NEWS2, visitas con geofencing, facturación automática y multi-tenant.',
   openGraph: {
     title: 'UribaSalud — Plataforma de Internación Domiciliaria',
     description:
-      'Sistema integral para la gestión clínica, operativa y administrativa de programas de Hospitalización a Domicilio.',
+      'Sistema integral para la gestión clínica, operativa y administrativa de programas de Internación Domiciliaria.',
     type: 'website',
     images: ['/og-image.png'],
   },

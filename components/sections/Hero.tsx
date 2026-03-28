@@ -119,7 +119,7 @@ export default function Hero() {
             >
               <HeartPulse size={14} className="text-white" />
               <span className="text-white text-xs font-medium font-[family-name:var(--font-dm-mono)]">
-                Hospitalización a Domicilio
+                Internación Domiciliaria
               </span>
             </motion.div>
 
@@ -139,7 +139,7 @@ export default function Hero() {
                 className="block"
               >
                 programa de{' '}
-                <span className="text-[var(--green)]">Hospitalización a Domicilio</span>
+                <span className="text-[var(--green)]">Internación Domiciliaria</span>
               </motion.span>
               <motion.span
                 initial={{ opacity: 0, y: 20 }}

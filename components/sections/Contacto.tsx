@@ -33,7 +33,7 @@ type ContactFormData = z.infer<typeof contactSchema>
 
 const roles = [
   'Director Médico',
-  'Coordinador de Hospitalización a Domicilio',
+  'Coordinador de Internación Domiciliaria',
   'Gerente / Administrador',
   'Auditor',
   'Otro',
@@ -100,7 +100,7 @@ export default function Contacto() {
         <SectionHeader
           eyebrow="CONTACTO"
           eyebrowColor="teal"
-          title="Hablemos sobre su programa de Hospitalización a Domicilio"
+          title="Hablemos sobre su programa de Internación Domiciliaria"
           subtitle="Completá el formulario y nos ponemos en contacto en menos de 24 horas para evaluar su caso."
         />
 
